@@ -51,6 +51,26 @@
         .navbar {
             background-color: rgba(66, 53, 28, 0.575);
         }
+        .btn {
+            background-color: rgba(66, 53, 28, 0.575);
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            /* adjust container sizing and layout */
+            .container {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+
+            @media screen and (max-width: 320px) {
+            /* adjust container sizing and layout */
+            .container {
+                width: 100%;
+                padding: 20px;
+            }
+        }
 
     </style>
 </head>
@@ -94,6 +114,10 @@
                 <div class = "col-lg-12">
                     <h1>Contact Me</h1>
                     <hr>
+                    <p>
+                        Feel free to message me anytime! I check my emails daily, and I'll do
+                        my best to respond as quickly as possible.
+                    </p>
                     <!-- establish input spaces for name, email, and message -->
                     <form>
 
@@ -109,7 +133,8 @@
                             <label for="exampleFormControlTextarea1">Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
                     <!-- close form -->
                     </form>
                 <!-- close column div -->
