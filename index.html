@@ -33,13 +33,16 @@
             font-size: large;
             color:black;
         }
+
         .aboutMe {
             margin: 50px 50px 50px 50px;
         }
+
         .col-lg-12 {
             background-color: rgba(66, 53, 28, 0.575);
             padding: 20px 20px 30px 15px;
         }
+
         h1 {
             font-size: 50px;
             color: black;
@@ -74,36 +77,51 @@
 </head>
 
 <body>
-    
+
+    <!-- navigation bar linking to about, portfolio, and contact pages -->
     <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- my name, links to about me page -->
         <a class="navbar-brand" href="index.html">Celine Ross</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+
+                <!-- link to about me -->
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
                 </li>
+                <!-- links to portfolio -->
                 <li class="nav-item active">
                     <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
                 </li>
+                <!-- links to contact -->
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
+
             </ul>
         </div>
+
       </nav>
 
-      <section class = "aboutMe">
+    <!-- semantic tag for about me section -->
+    <section class = "aboutMe">
+        <!-- grid wrapper -->
         <div class = "container">
+            <!-- row div -->
             <div class = "row">
+                <!-- column div -->
                 <div class = "col-lg-12">
                     <h1>About Me</h1>
                     <hr>
+                    <!-- image of myself before a couple paragraphs -->
                     <img class = "img img-me" alt="photo of me" src = "myself_resized.jpg" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia in suscipit laboriosam iusto 
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia in suscipit laboriosam iusto 
                         repellendus cumque praesentium, fugiat asperiores doloremque inventore commodi, voluptatibus eveniet esse,
                         explicabo distinctio? Vero, repellat non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                         ab aliquid animi obcaecati atque! Distinctio voluptatum nihil ab voluptates hic quisquam, nam doloribus
@@ -111,8 +129,8 @@
                         elit. Quam laudantium natus commodi dolorem repellendus pariatur nostrum recusandae esse at debitis
                         officiis voluptatibus ea repellat, quos accusamus. Laboriosam recusandae deserunt officia?
                     </p>
-
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis porro explicabo odit labore, accusamus 
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis porro explicabo odit labore, accusamus 
                         ratione necessitatibus rerum obcaecati harum quod sit ea nihil delectus nesciunt ex rem? Dolore, harum 
                         quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium, quisquam tenetur delectus
                         saepe voluptatem, maxime esse placeat explicabo possimus harum pariatur amet ex corrupti et, laboriosam
@@ -121,10 +139,14 @@
                         perspiciatis adipisci vitae corrupti mollitia maiores reiciendis qui? Lorem ipsum dolor sit amet
                         consectetur adipisicing elit.
                     </p>
+                    <!-- close column div -->
                 </div>
+            <!-- close row div -->
             </div>
-    </d iv>
-      </section>
+        <!-- close grid wrapper -->
+        </div>
+    <!-- close about me section -->
+    </section>
     
 </body>
 </html>
