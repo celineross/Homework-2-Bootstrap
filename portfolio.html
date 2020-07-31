@@ -11,6 +11,9 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
     />
+
+    <!-- some styyyyle -->
+    <link rel="stylesheet" href="style.css">
     
     <!-- link to bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
@@ -25,92 +28,7 @@
 
     <title>Portfolio</title>
 
-    <!-- some styyyyyle -->
-    <style>
 
-        * {
-            box-sizing: border-box;
-        }
-
-        /* style background and text */
-        body {
-            background-image: url(bg_new.jpg);
-            background-size: cover;
-            background-attachment: fixed;
-            font-weight: bolder;
-            font-size: large;
-            color:black;
-        }
-
-        /* style navigation bar */
-        .navbar {
-            background-color: rgba(66, 53, 28, 0.575);
-        }
-
-        /* adjust size of header */
-        h1 {
-            font-size: 300%;
-            color: black;
-        }
-
-        /* set margins for main content */
-        .portfolio {
-            margin: 50px 50px 50px 50px;
-        }
-
-        /* styling for content box */
-        .col-lg-10 {
-            background-color: rgba(66, 53, 28, 0.575);
-            padding: 30px 20px 30px 20px;
-        }
-        /* spacing for individual columns */
-        .col-lg-5 {
-            padding: 10px 30px 0px 50px;
-            margin-right: 30px;
-        }
-
-        /* separate thumbnails */
-        .sites {
-            margin-bottom: 20px;
-        }
-
-        @media screen and (max-width: 768px) {
-            /* adjust container sizing and layout */
-            .container {
-                width: 100%;
-                padding: 20px;
-            }
-
-            /* adjust font size when window shrinks */
-            h1 {
-                font-size: 200%;
-            }
-            
-            /* adjust thumbnail size when window shrinks */
-            .sites {
-                width:100%;
-            }
-        }
-
-            @media screen and (max-width: 320px) {
-            /* adjust container sizing and layout */
-            .container {
-                width: 100%;
-                padding: 20px;
-            }
-
-            /* adjust font size when window shrinks */
-            h1 {
-                font-size: 150%;
-            }
-
-            /* adjust thumbnail size when window shrinks */
-            .sites {
-                width: 100%;
-                padding: 0px;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -143,15 +61,13 @@
         </nav>
     </header>
 
-    <!-- main content -->
-    <main>
         <!-- portfolio section -->
-        <section class = "portfolio">
+        <main class = "portfolio">
             <!-- wrapper div -->
-            <div class = "container">
+            <div class = "my-container" style = "margin-top: 50px;">
 
                 <div class = "row">
-                    <div class = "col-lg-10">
+                    <div class = "col-lg-12">
                         <!-- header for content box, followed by content -->
                         <div class = "page-header">
                             <h1>Portfolio</h1>
