@@ -58,16 +58,18 @@
             margin: 50px 50px 50px 50px;
         }
 
+        /* styling for content box */
         .col-lg-10 {
             background-color: rgba(66, 53, 28, 0.575);
-            padding: 20px 20px 30px 15px;
+            padding: 30px 20px 30px 20px;
         }
-
+        /* spacing for individual columns */
         .col-lg-5 {
             padding: 10px 30px 0px 50px;
-            margin-left: 35px;
+            margin-right: 30px;
         }
 
+        /* separate thumbnails */
         .sites {
             margin-bottom: 20px;
         }
@@ -78,7 +80,13 @@
                 width: 100%;
                 padding: 20px;
             }
+
+            /* adjust font size when window shrinks */
+            h1 {
+                font-size: 200%;
+            }
             
+            /* adjust thumbnail size when window shrinks */
             .sites {
                 width:100%;
             }
@@ -90,6 +98,13 @@
                 width: 100%;
                 padding: 20px;
             }
+
+            /* adjust font size when window shrinks */
+            h1 {
+                font-size: 150%;
+            }
+
+            /* adjust thumbnail size when window shrinks */
             .sites {
                 width: 100%;
                 padding: 0px;
@@ -127,38 +142,53 @@
         <!-- close navigation bar -->
         </nav>
     </header>
-    <section class = "portfolio">
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-lg-10">
-                    <div class = "page-header">
-                        <h1>Portfolio</h1>
-                        <hr>
-                        <p>
-                            Below are some small, sample projects I've worked on during my first couple weeks in
-                            UTSA's coding bootcamp. Click the thumbnails to view their respective GitHub repositories.
-                        </p>
-                    </div>
 
-                    <div class ="row">
-                        <div class = "col-lg-5">
-                            <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
-                            <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
-                            <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
-                            <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
+    <!-- main content -->
+    <main>
+        <!-- portfolio section -->
+        <section class = "portfolio">
+            <!-- wrapper div -->
+            <div class = "container">
+
+                <div class = "row">
+                    <div class = "col-lg-10">
+                        <!-- header for content box, followed by content -->
+                        <div class = "page-header">
+                            <h1>Portfolio</h1>
+                            <hr>
+                            <p>
+                                Below are some small, sample projects I've worked on during my first couple weeks in
+                                UTSA's coding bootcamp. Click the thumbnails to view their respective GitHub repositories.
+                            </p>
                         </div>
-                        
-                        <div class = "col-lg-5">
-                            <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
-                            <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
-                            <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
-                            <img class ="sites" src = "deep.jpg" alt ="Styled site"></a>
+
+                        <!-- subgrid for project thumbnails -->
+                        <div class ="row">
+                            <div class = "col-lg-5">
+                                <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
+                                <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
+                                <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
+                                <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
+                            </div>
+                            <div class = "col-lg-5">
+                                <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
+                                <img class = "sites" src = "deep.jpg" alt ="Styled site"></a>
+                                <a href="https://github.com/celineross/DeepThinkActivity" target = "_blank">
+                                <img class ="sites" src = "deep.jpg" alt ="Styled site"></a>
+                            </div>
+                            <!-- close subgrid -->
                         </div>
+
+                    <!-- close header row -->
                     </div>
                 </div>
+
+                <!-- close wrapper -->
             </div>
-        </div>
-    </section>
-    
+        <!-- close portfolio -->
+        </section>
+    <!-- close main -->
+    </main>
+
 </body>
 </html>
