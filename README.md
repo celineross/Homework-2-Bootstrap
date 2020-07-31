@@ -1,9 +1,11 @@
 # Homework-2-Bootstrap
-* extensive project, total time worked about 15-20 hours
+* extensive project, total time worked about 20 hours
 
 * every page has a functional and consistent navigation bar with stylized color and font
 
 * every page has a functional and consistent sticky footer including my linkedin and github links
+
+* all links open in a new tab
 
 * semantic html used
 
