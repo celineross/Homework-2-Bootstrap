@@ -31,6 +31,8 @@
         * {
             box-sizing: border-box;
         }
+
+        /* style background and text */
         body {
             background-image: url(bg_new.jpg);
             background-size: cover;
@@ -40,15 +42,18 @@
             color:black;
         }
 
+        /* style navigation bar */
         .navbar {
             background-color: rgba(66, 53, 28, 0.575);
         }
 
+        /* adjust size of header */
         h1 {
-            font-size: 50px;
+            font-size: 300%;
             color: black;
         }
 
+        /* set margins for main content */
         .portfolio {
             margin: 50px 50px 50px 50px;
         }
@@ -60,11 +65,11 @@
 
         .col-lg-5 {
             padding: 10px 30px 0px 50px;
-            margin-left: 45px;
+            margin-left: 35px;
         }
 
         .sites {
-            margin: 0px 30px 30px 0px;
+            margin-bottom: 20px;
         }
 
         @media screen and (max-width: 768px) {
@@ -95,36 +100,33 @@
 
 <body>
 
-    <!-- navigation bar linking to about, portfolio, and contact pages -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- my name, links to about me page -->
-        <a class="navbar-brand" href="index.html">Celine Ross</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+        <!-- navigation bar linking to about, portfolio, and contact pages -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- links to about me page -->
+            <a class="navbar-brand" href="index.html">Home/About</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
 
-                <!-- link to about me -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <!-- links to portfolio -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <!-- links to contact -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                </li>
+                    <!-- links to portfolio -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- links to contact -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
 
-            </ul>
-        </div>
-    <!-- close navigation bar -->
-    </nav>
-
+                </ul>
+            </div>
+        <!-- close navigation bar -->
+        </nav>
+    </header>
     <section class = "portfolio">
         <div class = "container">
             <div class = "row">
