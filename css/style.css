@@ -42,7 +42,6 @@ h1 {
 
 /* establish spacing for content sections */
 .my-container {
-    margin-top: 50px;
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
@@ -56,6 +55,11 @@ h1 {
 /* space between thumbnails */
 .sites {
     margin-bottom: 30px;
+}
+
+/* change sticky footer color */
+.footer {
+    background-color: rgba(66, 53, 28, 0.575);
 }
 
 
